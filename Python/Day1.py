@@ -43,3 +43,8 @@
 # radius = float(input("Enter the radius:"))
 # area = 2*pi*radius
 # print(f"The area of the circle is {area:.3f}")
+
+# Question-9
+num = input("Enter the number:")
+print("The Integer part is:",int(float(num)))
+print("The fractional part is:",(float(num)-int(float(num))))
